@@ -1,21 +1,35 @@
-# SimpleWebServerinC
+# 🖥️ SimpleWebServerinC
 
-Um servidor web simples em C, acompanhado de um cliente para testes.
+Um servidor web simples em C, com um cliente para testes de conexão.
 
-## Funcionalidades
-- Servidor HTTP básico.
-- Cliente para enviar requisições.
+## 📦 Funcionalidades
+- Servidor HTTP básico que processa requisições.
+- Cliente para enviar requisições ao servidor.
+- Suporte a conexões locais (localhost).
 
-## Compilação
+## 🛠️ Compilação
+
+Compile os arquivos usando `gcc`:
+
 ```bash
 gcc server.c -o server
 gcc client.c -o client
+```
+## ▶️ Uso 
 
-## Uso 
-Inicie o servidor e conecte com o cliente
+Inicia o Servidor
+
 ```bash
 ./server
+```
+
+Executa o Cliente
+
+```bash
 ./client
+```
+
+
 
 
 
