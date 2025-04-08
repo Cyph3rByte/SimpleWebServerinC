@@ -10,3 +10,13 @@ Um servidor web simples em C, acompanhado de um cliente para testes.
 ```bash
 gcc server.c -o server
 gcc client.c -o client
+
+## Uso 
+Inicie o servidor e conecte com o cliente
+```bash
+./server
+./client
+
+
+
+
